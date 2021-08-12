@@ -7,6 +7,11 @@ import { Navbar, Products, Cart } from "./components";
 import { ProductType } from "./components/Products/Products";
 import Checkout from "./components/CheckoutForm/Checkout/Checkout";
 
+/**
+ * @todo Add credit cards info to https://dashboard.chec.io to link with stripe, so we can test confirmation mail to customer and seller
+ *
+ */
+
 interface Props {}
 
 // type CartType = {
